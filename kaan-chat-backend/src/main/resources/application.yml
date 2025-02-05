@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: kaan-chat
+  datasource:
+    url: jdbc:postgresql://localhost:5432/chat-app
+    username: postgres
+    password: database
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+JWT_SECRET: "sa4PgK+TaqQRwRZHucSWXbIuN1UtZoEkzTegvgU1rzc="
+JWT_EXPIRATION_TIME: 3600000
