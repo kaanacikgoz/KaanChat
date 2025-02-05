@@ -1,0 +1,12 @@
+# Backend
+target/
+build/
+.mvn/
+.idea/
+*.log
+
+# Frontend
+node_modules/
+build/
+.env
+
